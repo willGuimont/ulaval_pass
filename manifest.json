@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "ULaval Pass",
+    "version": "1.0",
+    "description": "Allow to access scientific articles from ULaval library without having to go through the library website.",
+    "permissions": [
+        "activeTab"
+    ],
+    "icons": {
+        "16": "ico/icon16.png",
+        "48": "ico/icon48.png",
+        "128": "ico/icon128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
