@@ -20,5 +20,10 @@
                 "content.js"
             ]
         }
-    ]
+    ],
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "ulaval_pass@willguimont"
+        }
+    }
 }
